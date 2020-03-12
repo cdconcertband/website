@@ -6,6 +6,12 @@ module.exports = {
     siteUrl: 'https://cdconcertband.org'
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-instagram',
+      options: {
+        username: `cd.concertband`
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {

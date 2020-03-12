@@ -9,7 +9,7 @@ export default () => (
     </h2>
     <h2 className="taCenter">
     Like us{' '}
-      <a href="https://facebook.com/combineddistricts">/combineddistricts</a>
+      <a href="https://facebook.com/combineddistricts">combineddistricts</a>
     </h2>
 
     <br />
