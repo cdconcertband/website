@@ -21,7 +21,8 @@ class Image extends React.Component {
     '1200',
     '1500',
     '1600',
-    '2000'
+    '2000',
+    '2500',
   ] // image sizes used for image source sets
 
   state = {
@@ -46,6 +47,8 @@ class Image extends React.Component {
       res = '1000x'
     } else if (res === 'large') {
       res = '2000x'
+    } else if(res === 'x-large') {
+      res = '2500x';
     }
     return res
   }
@@ -93,7 +96,7 @@ class Image extends React.Component {
         backgroundImage: `url(${
           this.state.isIntersecting ? fullSrc : smallSrc
         })`,
-        backgroundSize
+        backgroundSize: 'cover'
       }
     }
 

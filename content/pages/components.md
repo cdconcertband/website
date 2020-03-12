@@ -1,9 +1,9 @@
 ---
 template: DefaultPage
-slug: about
-title: About
+slug: ''
+title: Components
 featuredImage: ''
-subtitle: This is the components page subtitle.
+subtitle: ''
 section1: >-
   ## This is a container component
 
