@@ -71,7 +71,7 @@ export class Navigation extends Component {
                     History
                   </NavLink>
                   <NavLink to = "md" className="Nav--GroupLink">
-                    Music Director
+                    Musical Director
                   </NavLink>
                 </div>
               </span>
