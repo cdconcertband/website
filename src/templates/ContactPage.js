@@ -18,7 +18,7 @@ export const ContactPageTemplate = ({
   address,
   phone,
   email,
-  locations
+
 }) => (
   <main className="Contact">
     <PageHeader
@@ -62,7 +62,7 @@ export const ContactPageTemplate = ({
       </div>
     </section>
 
-    <GoogleMap locations={locations} />
+
   </main>
 )
 
