@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: history
 title: History
-featuredImage: '../images/header.jpg'
+featuredImage: '../images/swan.jpg'
 meta:
   description: Our band's history page.
   title: History

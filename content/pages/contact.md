@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact
-featuredImage: '../images/header.jpg'
+featuredImage: '../images/trumpets.jpg'
 address: 'PO Box 192, Leederville, 6003'
 phone: 0459 324 720
 email: secretary@cdconcertband.org
@@ -15,7 +15,7 @@ meta:
   title: Contact
 ---
 
-# Example contact form
+#Contact Us
 
 <!-- This form is setup to use Netlify's form handling:
 
