@@ -8,3 +8,10 @@ meta:
   title: Combined Districts Concert Band
 ---
 
+> # About
+> Combined Districts Concert Band is a community concert band welcoming all ages. Led by Rob Gladstones, we play a variety of music, from concert band classics to the latest hits. Come see us [live](../events), find out more about our [history](../history) and our [musical directors](../md), or [Contact Us](../contact) for any enquiries.  
+
+
+> # Rehearsals
+> Monday Nights, 7-9:30PM\
+> Salvation Army Church Floreat

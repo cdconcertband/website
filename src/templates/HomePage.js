@@ -26,7 +26,7 @@ export const HomePageTemplate = ({ title, featuredImage, body }) => (
 const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
     <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
-
+    
   </Layout>
 )
 
