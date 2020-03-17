@@ -22868,4 +22868,4 @@
 25425 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
 25426 error typeerror This is an error with npm itself. Please report this error at:
 25426 error typeerror     <http://github.com/npm/npm/issues>
-25427 verbose exit [ 0, true ]
+25427 verbose exit [ 1, true ]
