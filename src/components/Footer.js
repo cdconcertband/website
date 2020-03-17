@@ -6,9 +6,10 @@ export default () => (
     <footer className="footer">
       <div className="container taCenter">
         <span>
-          <h3>Follow us{' '}<a href="https://instagram.com/cd.concertband/">@cd.concertband</a></h3>
-          <h3>Like us{' '}<a href="https://facebook.com/combineddistricts">combineddistricts</a></h3>
-          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by Sophie and Eddie
+          <h3><a href="https://instagram.com/cd.concertband/">Follow us on Instagram @cd.concertband</a></h3>
+          <h3><a href="https://facebook.com/combineddistricts">Like us on Facebook /combineddistricts</a></h3>
+          <p>&nbsp;</p>
+          © Copyright {new Date().getFullYear()} All rights reserved.
         </span>
       </div>
     </footer>

@@ -11,11 +11,10 @@ locations:
     lng: ''
     mapLink: ''
 meta:
-  description: This is a meta description.
+  description: 
   title: Contact
 ---
 
-#Contact Us
 
 <!-- This form is setup to use Netlify's form handling:
 
@@ -25,9 +24,3 @@ meta:
 
 Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/). -->
 
-
-Please fill out the form if you are interested in joining, wish to hire Combined Districts Concert Band for your event, or for any other enquiries. 
-
-
-
-Alternatively you can contact the Band on the listed email and phone number.
