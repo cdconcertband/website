@@ -8,10 +8,11 @@ meta:
   title: Contact Page
 ---
 
-<h1>Present Musical Director </h1>
+# Present Musical Director 
 
-<h3>Rob Gladstones</h3>
+> ### Rob Gladstones
 
 
-<h1>Previous Musical Directors</h1>
-<h3>Glyn MacDonald</h3>
+# Previous Musical Directors
+
+> ### Glyn MacDonald

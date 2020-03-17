@@ -3,7 +3,7 @@
 }
 
 .SinglePost--BackButton {
-  color: white;
+  color: black;
   position: relative;
   display: flex;
   align-items: center;
@@ -45,6 +45,9 @@
 }
 
 .SinglePost--Title {
+  background-color: #e7e7e7;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   text-align: center;
   line-height: 1.2;
 }
