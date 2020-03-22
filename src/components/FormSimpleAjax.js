@@ -53,6 +53,7 @@ class Form extends React.Component {
       })
   }
 
+  
   render() {
     const { name, subject, action } = this.props
 
@@ -132,7 +133,7 @@ class Form extends React.Component {
           </label>             
           <div
             className="g-recaptcha"
-            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
+            data-sitekey="6LcWGuMUAAAAAFOsfwYa6Vc2XlMf5BSJNs2gmkc5"
             data-netlify-recaptcha="true"
           />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
