@@ -13,6 +13,7 @@ export default ({
     action={action}
     data-netlify='true'
     data-netlify-honeypot='_gotcha'
+    data-netlify-recaptcha="true"
   >
     <label className='Form--Label'>
       <input
@@ -56,6 +57,7 @@ export default ({
         required
       />
     </label>
+    <div data-netlify-recaptcha="true"></div>
     <input type='text' name='_gotcha' style={{ display: 'none' }} />
     {!!subject && <input type='hidden' name='subject' value={subject} />}
     <input type='hidden' name='form-name' value={name} />
