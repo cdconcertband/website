@@ -60,16 +60,18 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" />
+          <script src="https://www.google.com/recaptcha/api.js" async defer ></script>
         </Helmet>
         <form
           className="Form"
           name={name}
-          action={action}
+          action="?"
+          method ="POST"
           onSubmit={this.handleSubmit}
           data-netlify="true"
           netlify-recaptcha="true"
           data-netlify-recaptcha="true"
+          
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -136,6 +138,8 @@ class Form extends React.Component {
             data-sitekey="6LcWGuMUAAAAAFOsfwYa6Vc2XlMf5BSJNs2gmkc5"
             data-netlify-recaptcha="true"
           />
+          <br/>
+          <input type="submit" value="Submit"></input>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
