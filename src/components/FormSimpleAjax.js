@@ -135,7 +135,7 @@ class Form extends React.Component {
           </label>             
           <div
             className="g-recaptcha"
-            data-sitekey="6LcWGuMUAAAAAFOsfwYa6Vc2XlMf5BSJNs2gmkc5"
+            data-sitekey="6LcrHOMUAAAAALEFOjaROocem0YeoGdfkrp4X1Zb"
             data-netlify-recaptcha="true"
           />
           <br/>
